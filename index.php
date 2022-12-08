@@ -1,1 +1,301 @@
-<?php include_once("home.html") ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Freakin Cool Resume</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
+	<style type="text/css">
+		body{
+			padding:0 0;
+			margin:0 0; 
+			font-family: 'Tw Cen MT';
+
+		}
+		.header {
+		  background: #7dae77;
+		  text-align: center;
+		  min-height: 500px;
+		}
+		.header img {
+		  margin-top: 7em;
+		}
+		.header h1 {
+		  font-family: 'Tw Cen MT';
+		  font-weight: bold;
+		  font-size: 4em;
+		  text-transform: capitalize;
+		  color: white;
+		  padding: 0.5em 0 0 0;
+		}
+		.header p{
+			font-family: 'Tw Cen MT';
+			color: white;
+			font-size: 2em;
+		}
+		.content-section {
+			padding: 1em;
+			background: url('img/bg1.jpg') no-repeat center center fixed;
+		}
+		.content-section h3 {
+			font-family: 'Tw Cen MT';
+			font-weight: bold;
+			font-size: 2.5em;
+		}
+		.content-item {
+			margin: 1em 0em;
+			background-color: #daecd8;
+			padding: 2em;
+			opacity: 0.9;
+		}
+		.content-item p{
+			font-size: 1.5em;
+			font-family: 'Tw Cen MT';
+		}
+		.content-item li{
+			font-size: 1.2em;
+		}
+		.content-items {
+			margin: 1em 0em;
+			background-color: #daecd8;
+			padding: 2em;
+		}
+		.content-items p{
+			font-size: 1.5em;
+			font-family: 'Tw Cen MT';
+		}
+		.content-items li{
+			font-size: 1.2em;
+		}
+		.progress-bar {
+			background-color: #66cc6e;
+		}
+		.port-grid {
+		    background: #f7f7f7;
+		    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		    text-align: center;
+		    position: relative;
+		}
+		.port-title{
+			padding: 2em;
+		}
+		.port-item{
+			margin: 1em 0em;
+			position: relative;
+		}
+		.port-grid h4{
+			font-family: 'Tw Cen MT';
+		}
+		.port-grid p{
+			font-family: 'Tw Cen MT';
+			font-size: 1em;
+		}
+		.google-map iframe {
+		  width: 100%;
+		  height: 500px;
+		  border: 0;
+		}
+		.footer-section{
+			padding:2em 0;
+			text-align:center;
+			background:#7dae77;
+		}
+		.footer-bottom {
+			margin-top: 1em;
+		}
+		.footer-top p {
+			font-size: 1.4em;
+			color: white;
+			font-weight: 400;
+		}
+		.footer-top  a {
+			font-size: 1em;
+			color:white;
+			font-weight: 400;
+			text-transform: capitalize;
+		}
+		.footer-top a:hover {
+			color: white;
+		}
+		.footer-top a {
+			margin: 0 6px 0 6px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<img src="img/1.jpg" class="rounded-circle img-thumbnail">
+				<h1>hello<span>!</span></h1>
+					<p>My name is Eki Ahmad & I am Web Programmer</p>
+		</div>
+	</div>
+	<div class="content-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
+					<h3>ABOUT ME</h3>
+					<p>I have experience of Frontend and Backend Developer with a demonstrated history of working in the information technology and services industry.</p>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
+					<h3>CONTACT ME</h3>
+					<ul>
+						<li><span>Name : </span>Ahmad Eki Mahdavikia</li>
+						<li><span>Mail : </span>ekiahmad72@gmail.com</li>
+						<li><span>Phone : </span>083834444565</li>
+						<li><span>Address : </span>Jl. Tlogowaru 62, Kedungkandang, Malang</li>
+						<li><span>Gender : </span>Male</li>
+						<li><span>LinkedIn : </span><a href="https://www.linkedin.com/in/eki-ahmad-5b37b8134" style="text-decoration: none;" target="_blank">eki-ahmad</a></li>
+						<li><span>Github : </span><a href="https://github.com/EkiAhmad" style="text-decoration: none;" target="_blank">EkiAhmad</a></li>
+					</ul>
+				</div>
+				<!-- <div class="col-lg-6 col-md-12 col-sm-12 content-item">
+					<h3>study</h3>
+					<ul>
+						<li>SMP NEGERI 23 Malang <label>( 2011 )</label></li>
+						<li>SMK NEGERI 4 Malang -> RPL <label>( 2014 )</label></li>
+					</ul>
+				</div> -->
+				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
+					<h3>MY WORK EXPERIENCE</h3>
+						<p>at PT Cendana Teknika Utama (Oct 2017 - Apr 2020)</p>
+						<ul>
+							<li>K3, PHP (Codeigniter) MySQl <label>( 2017 )</label></li>
+							<li>SIMDA, PHP (Codeigniter) MySQl <label>( 2017 )</label></li>
+							<li>PJ and MPP, PHP (Custom Native Framework) MySQl <label>( 2018 )</label></li>
+							<li>MD Pulsa, PHP (Codeigniter) MySQl <label>( 2018 )</label></li>
+							<li>Office Automation 2.0, PHP (Laravel 5.4) PostgreSQL 9.6 <label>( 2018 )</label></li>
+							<li>Hotel Garuda Indonesia, PHP (Codeigniter) MySQl <label>( 2018 )</label></li>
+							<li>Inmed, PHP (Codeigniter) MySQl <label>( 2018 )</label></li>
+							<li>Realcom, PHP (Codeigniter) MySQl, Firebase <label>( 2019 )</label></li>
+							<li>PMI, PHP (Laravel 6) PostgreSQL <label>( 2020 )</label></li>
+							<li>Sidoni, PHP (Laravel 6) PostgreSQL <label>( 2020 )</label></li>
+						</ul>
+						<p>at PT Digital Network Venture Indonesia (Aug 2020 - Dec 2020)</p>
+						<ul>
+							<li>Manna Menu - (CMS Admin, CMS Store), Frontend - (VueJs 2.5.17, Quasar 0.17.26), Backend (PHP Codeigniter), Database MySQL (September - Oktober)</li>
+							<li>Manna Pos - (CMS Admin Pos, CMS Supplier), Frontend - (VueJs 2.5.17, Quasar 0.17.26), Backend (PHP Codeigniter), Database MySQL (Oktober - Desember)</li>
+							<li>Manna Wallet - (CMS Admin), Frontend - (VueJs 2.5.17, Quasar 0.17.26), Backend (PHP Codeigniter), Database MySQL (Oktober - Desember)</li>
+						</ul>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 content-item">
+					<h3>SKILLS</h3>
+					<br>
+					<h4>Codeigniter</h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 85%"></div>
+					</div>
+					<h4>Laravel</h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%"></div>
+					</div>
+					<h4>Jquery</h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 85%"></div>
+					</div>
+					<h4>Ajax<h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%"></div>
+					</div>
+					<h4>Git<h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%"></div>
+					</div>
+					<h4>SQL<h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 85%"></div>
+					</div>
+					<h4>REST API<h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 85%"></div>
+					</div>
+					<h4>VueJs<h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%"></div>
+					</div>
+					<h4>Quasar<h4>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%"></div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 content-items">
+					<center><h3>PORTFOLIO</h3></center>
+					<div class="row">						
+						<div class="col-lg-4 col-md-12 port-item">
+							<div class="port-grid">
+								<img src="img/real1.png" alt="news image" class="img-fluid">
+									<div class="port-title">
+										<h4>Realcom</h4>
+										<p class="mt-4">  Education Learning Apps <br> <a href="https://web-realcom.com/" target="_blank" style="text-decoration: none;">Realcom</a></p>
+									</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 port-item">
+							<div class="port-grid">
+								<img src="img/pmi2.png" alt="news image" class="img-fluid">
+									<div class="port-title">
+										<h4>PMI</h4>
+										<p class="mt-4">  CMS PMI Tangerang <br> &nbsp;</p>
+									</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 port-item">
+							<div class="port-grid">
+								<img src="img/sidoni1.png" alt="news image" class="img-fluid">
+									<div class="port-title">
+										<h4>Sidoni</h4>
+										<p class="mt-4"> Web Version Sidoni Mobile Apps <br> <a href="https://play.google.com/store/apps/details?id=com.pmi.tangerang&hl=in" target="_blank" style="text-decoration: none;">Playstore Sidoni</a></p>
+									</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 port-item">
+							<div class="port-grid">
+								<img src="img/mannamenu.png" alt="news image" class="img-fluid">
+									<div class="port-title">
+										<h4>Manna Menu</h4>
+										<p class="mt-4"> CMS Manna Menu Admin and store <br> <a href="https://manna.asia/home/manna-menu" target="_blank" style="text-decoration: none;">Dashboard Manna Menu</a></p>
+									</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 port-item">
+							<div class="port-grid">
+								<img src="img/mannapos.png" alt="news image" class="img-fluid">
+									<div class="port-title">
+										<h4>Manna Pos</h4>
+										<p class="mt-4"> CMS Manna Pos Admin and supplier <br> <a href="https://manna.asia/home/manna-pos" target="_blank" style="text-decoration: none;">Dashboard Manna Pos</a></p>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 content-items">
+					<div class="google-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.3181602220184!2d112.65120682347485!3d-8.0363793126462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd627a42cd8c205%3A0x6cb1f8ebc2bf73d9!2sJl.%20Raya%20Tlogowaru%2020%2C%20Tlogowaru%2C%20Kec.%20Kedungkandang%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065133!5e0!3m2!1sid!2sid!4v1592997199743!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-section">
+		<div class="container">
+			<div class="footer-top">
+				<p>&copy; 2020 <span>Freakin Cool Resume.</span> All rights reserved | Design by Shawn Heike
+			</div>
+		</div>
+	</div>
+
+
+	<!-- jquery -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<!-- sweetalert2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+
+	<!-- bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+
+
+</body>
+</html>
